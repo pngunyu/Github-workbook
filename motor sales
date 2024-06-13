@@ -1,0 +1,43 @@
+motor_sales/
+├── sales_data/
+│   ├── 2024/
+│   │   ├── 01.csv
+│   │   ├── 02.csv
+│   │   └── ...
+│   └── ...
+├── main.py
+├── sales_capture.py
+├── sales_reports.py
+└── utils.py
+motor_sales/
+├── sales_data/
+│   ├── 2024/
+│   │   ├── 01.csv
+│   │   ├── 02.csv
+│   │   └── ...
+│   └── ...
+├── main.py
+├── sales_capture.py
+├── sales_reports.py
+└── utils.py
+motor_sales/
+├── sales_data/
+│   ├── 2024/
+│   │   ├── 01.csv
+│   │   ├── 02.csv
+│   │   └── ...
+│   └── ...
+├── main.py
+├── sales_capture.py
+├── sales_reports.py
+└── utils.py
+import os
+
+def ensure_dir_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+import os
+
+def ensure_dir_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
